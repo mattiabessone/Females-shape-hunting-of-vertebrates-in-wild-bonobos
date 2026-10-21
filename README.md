@@ -29,12 +29,11 @@ Folder name| Subfolder name | File name | Description |
 |~|Stan_code     |bernoulli_null.stan| Stan model (null) investigating probability of female hunting  |
 |~|Stan_code     |bernoulli_full.stan| Stan model (full) investigating probability of female hunting  |
 |~|Stan_code     |bernoulli_age.stan| Stan model investigating the effect of age on the probability of female hunting  |
-|~|Stan_code     |bernoulli_null.stan| Stan model (null) investigating inter-community differences in hunting |
-|~|Stan_code     |bernoulli_null.stan| Stan model (full) investigating inter-community differences in hunting |
+|~|Stan_code     |multinomial_null.stan| Stan model (null) investigating inter-community differences in hunting |
+|~|Stan_code     |multinomial_full.stan| Stan model (full) investigating inter-community differences in hunting |
 |~|Results       |~| Empty forlder to store model results |
 
 ## 2) Instructions
-The code runs in R (ver. 4.3.1) and requires the R packages rstan (ver. 2.32.7) and loo (ver. 2.5.1). A detailed description of the steps needed to install rstan can be found here : https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started. 
-To run the analyses, open the script “Run_analyses.R” in R, making sure to i) set up the correct working directory ii) replicate the same folder structure provided in this repository. 
-The script “Run_analyses.R” provides code for 1) Import and process the data, 2) run analyses on bonobo hunting behaviuor, 3) run analyses on bonobo female hunting, 4) run analyses on female status and offspring age in relation to hunting, 5) run analyses on inter-community differences, 6) draw plots presented in Fig. 1 and 2 (depends on running previous codes).
-
+- The code runs in R (ver. 4.3.1) and requires the R packages rstan (ver. 2.32.7) and loo (ver. 2.5.1). A detailed description of the steps needed to install rstan can be found here : https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started. 
+- To run the analyses, open the script “Run_analyses.R” in R, making sure to i) set up the correct working directory ii) replicate the same folder structure provided in this repository. 
+- The script “Run_analyses.R” provides code for 1) Import and process the data, 2) run analyses on bonobo hunting behaviuor, 3) run analyses on bonobo female hunting, 4) run analyses on female status and offspring age in relation to hunting, 5) run analyses on inter-community differences, 6) draw plots presented in Fig. 1 and 2 (depends on running previous codes).
