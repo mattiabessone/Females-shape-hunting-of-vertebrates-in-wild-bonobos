@@ -1,5 +1,5 @@
 # Females shape hunting of vertebrates in wild bonobos
-### Hohmann, G., Bessone, M., Balduccio, N., Decina, F., Deville, T., Pashchevskaya, S., Soliday, V., Stewart, K., & Fruth, B.
+Hohmann, G., Bessone, M., Balduccio, N., Decina, F., Deville, T., Pashchevskaya, S., Soliday, V., Stewart, K., & Fruth, B.
 ### _Current Biology_ (2026)
 
 ## Abstract
